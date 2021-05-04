@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0%;
+}
+header{
+    background-color: rgba(96, 96, 96,.8);
+    width: 100%;
+    top: 0%;
+    padding-top: 0%;
+
+}
+p{
+    font-family:  'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 1%;
+font-weight: bolder;
+font-size: xxx-large;
+    font-weight: bolder;
+}
+
+body{
+    background-image: url(./donate-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+form{
+    background-color: rgba(96, 96, 96,.8);
+    width: 40%;
+    border-radius: 5px;
+margin-left: 1%;
+margin-top: 5%;
+color: white;
+font-family: 'Roboto', sans-serif ;
+padding: 1%;
+font-weight: bolder;
+display: inline-block;
+
+}
+input {
+    width: 35%;
+    margin-left: 45%;
+    
+}
+#amount{
+    width: 36%;
+    margin-left: 49%;
+}
+#submit{
+width: 36%;
+margin-left: 57%;
+background-color: black;
+color: white;
+font-family:'Roboto', sans-serif ;
+font-weight: bolder;
+}
+#donationInfo{
+    display: inline-block;
+    background-color: rgba(96, 96, 96,.8);
+    border-radius: 10px;
+    margin-left: 5%;
+    color: white;
+    font-family:'Roboto', sans-serif ;
+   width: fit-content;
+}
+table, th, td {
+    border: 1px solid white;
+/* width: 45%; */
+text-align: center;
+justify-content: center;
+padding: 0% 18% 0% 5%;
+  }
+footer{
+    background-color: rgba(96, 96, 96,.8);
+    color: white;
+    text-align: center;
+    margin-top: 33%;
+    padding: 1%;
+    font-family:'Roboto', sans-serif ;
+    font-weight: bolder;
+}
